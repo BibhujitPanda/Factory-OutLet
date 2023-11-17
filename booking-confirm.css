@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 1em;
+}
+
+.option {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+.cart-items {
+    padding: 2em;
+}
+
+.navigation-row {
+    background-color: #696262;
+    color: #070707;
+    padding: 10px;
+    /* text-align: center; */
+  }
+
+  .navigation-link {
+    color: #0c0c0c;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: blue;
+    color: white;
+  }
+
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .flight-symbol {
+    font-size: 24px;
+  }
+
+  .total-row {
+    font-weight: bold;
+  }
+

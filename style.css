@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+
+body{
+    padding: 10px;
+    margin: 0;
+}
+.circle-button {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 25px;
+    color:yellowgreen;
+    margin: 1px;
+}
+
+.line {
+    height: 2px;
+    background-color: black;
+    width: 200px;
+    /* margin: 0 20px; */
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+    background:skyblue
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 80px;
+    background:whitesmoke;
+}
+  
+#navbar li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#navbar li:first-child a {
+    color:red; /* Set the color to blue or any color of your choice */
+}
+
+.text{
+    color: grey;
+    font-size: 1rem;
+}
+
+/* #navbar li:hover {
+    background-color: orangered
+    border: 2px solid rgb(224, 119, 193); Add a border
+    padding: 5px; Add some padding to create space around the content
+    margin-bottom: 5px; Add margin at the bottom to separate the boxes
+} */
+
+#navbar li :hover {
+    color: orangered;
+}
+
+#main{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    background-color: aliceblue;
+}
+
+.main-page ul {
+    list-style-type: none;
+}
+
+/* Add space between tags */
+.main-page {
+    margin-bottom: 10px; /* Add margin at the bottom to create space between tags */
+}
+
+/* Add margin to create space around the elements */
+.main-page {
+    margin: 20px;
+}
+
+/* Add margin-bottom to create space below the h4 element */
+.main-page h4 {
+    margin-bottom: 20px;
+    color: brown;
+}
+
+/* Add margin-bottom to create space below the h6 element */
+.main-page h6 {
+    margin-bottom: 20px;
+    color: yellowgreen;
+}
+
+/* Add margin-bottom to create space below the ul element */
+.main-page ul {
+    margin-bottom: 20px;
+}
+
+/* Add margin-top to create space above the a tag */
+.main-page a {
+    margin-top: 20px;
+}
+
+.main-page button {
+    display: inline-block; /* Set the display to inline-block to make the box fit the content */
+    padding: 5px; /* Add padding to create space around the link text */
+    border: 1px solid black; /* Add a border around the link */
+    background-color:orangered;
+}
+
+.main-page button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* @media(max-width:799px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        height: 100vh;
+        width: 300px;
+        background-color: blueviolet;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+    }
+} */
+
+/* *******************Origin/Destination CSS******************** */
+
+
+
+#option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+
+}
+
+h5{
+    margin-top: 20px;
+}
+
+#nodata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 200px;
+    font-size: 50px;
+    color: red;
+}
+
+/* ********************Load Css****************** */
+
+/* #load-details a{
+    color: rgb(14, 58, 0);
+    list-style: none
+    
+} */
+
+/* #load-details a{
+    margin: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+   
+}
+#radion-button{
+    display: flex;
+    padding-top: 50px;
+} */
+
+
+#load-details a {
+    display: inline-block; /* Make sure the margin works as expected */
+    margin: 5px; /* Adjust the margin as needed */
+    padding: 5px; /* Adjust the padding as needed */
+    text-decoration: none; /* Remove the underline on the links */
+    color: #333; /* Set the text color */
+    background-color: #f0f0f0; /* Set the background color */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 3px; /* Add rounded corners */
+}
+
+#load-details a.active {
+    background-color: #3498db; /* Blue color for the active state */
+    color: #fff; /* White text color for better contrast */
+}
+
+#radio-button input,
+#radio-button label {
+    /* display: block; Display on separate lines */
+    margin: 5px 0; /* Adjust the margin as needed */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+#load-package{
+    display: flex;
+}
+
+#load-package ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+#package ul {
+    list-style: none;
+    padding: 0;
+}
+
+#package li {
+    cursor: pointer;
+    padding: 1px;
+    margin: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#package li.selected {
+    background-color: #3498db; /* Selected background color */
+    color: #fff; /* Selected text color for better contrast */
+}
+
+#last-load-details{
+    display: flex;
+    margin-right: 25px;
+}
+
+#last-load-details div{
+    margin-right: 50px;
+}
+
+ /* Style for the button */
+ .shadow-button {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 10px;
+    font-size: 12px;
+    background-color: rgb(194, 194, 19); /* Blue background color */
+    color: blue; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Add a smooth transition effect for the shadow */
+}
+
+/* ***********************Cart CSS************************ */
+
+ .toggle-switch-container .button-text {
+    display: flex;
+    /* justify-content: space-between; */
+}
+ /* Optional: Add styling for the toggle switches */
+.toggle-switch-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    /* padding-right: 20px; */
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Optional: Add some space between the switches */
+.toggle-switch:not(:last-child) {
+    margin-right: 10px;
+}
+

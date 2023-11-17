@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Factory OutLet</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <div>
+        <div id="container">
+            <a href="index.html"><button class="circle-button">1</button></a>
+            <div class="line">Search</div>
+            <a href="recomended.html"><button class="circle-button">2</button></a>
+            <div class="line">recomended services</div>
+            <a href="result.html"><button class="circle-button">3</button></a>
+            <div class="line">Results</div>
+            <a href="booking.html"><button class="circle-button">4</button></a>
+            <div class="line">Booking</div>
+            <button class="circle-button">5</button>
+            <div class="line">Verification</div>
+        </div>
+    </div>
+
+    <section id="header">
+
+        <div>
+            <ul id="navbar">
+                
+                <li><a href="index.html"> <i class="fas fa-home"></i></a> </li>
+                <li><a href="origin.html"> Origin</a> <p class="text">Factory/WareHouse</p></li>
+                <li><a href="destination.html"> Destination</a> <p class="text">Where are you shipping to?</p></li>
+                <li><a href="load.html">Load</a><p class="text">What Are you Shipping</p></li>
+                <li><a href="goods.html"> Goods</a> <p class="text">Tell us about your Goods</p></li>
+                <li><a href="cart.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <h3>Where are you shipping?</h3>
+
+    <div id="load-details">
+        <a class="active" href="#">Loose Cargo</a>   
+        <a href="#">Containers</a>
+    </div>
+
+    <!-- <label for="items">Choose an item:</label>
+    <select id="items" name="items">
+        <option value="item1">Item 1</option>
+        <option value="item2">Item 2</option>
+        <option value="item3">Item 3</option>
+    </select> -->
+<div id="radio-button">
+    <input type="radio" id="unit" name="fav_language" value="HTML">
+    <label for="unit">Calculate By Unit Type</label>
+    <input type="radio" id="shipment" name="fav_language" value="CSS">
+    <label for="shipment">Calculate By Total shipments</label>
+</div>
+    <!-- <label for="tickButton">Tick me:</label>
+    <input type="checkbox" id="tickButton" name="tickButton"> -->
+<div id="load-package">
+    <div id="package">
+        <h5>Package Details</h5>
+        <ul>
+            <li onclick="toggleSelection(this)">Pallets</li>
+            <li onclick="toggleSelection(this)">Boxes/Crates</li>
+        </ul>
+    </div>
+    <div id="units">
+        <h5>No. of units</h5>
+        <label for="quantity"> </label>
+  <input type="number" id="quantity" name="quantity" min="1" max="100">
+  <input type="submit" value="Submit">
+    </div>
+</div>
+
+<div>
+    <h5>pallet type:</h5>
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="List 1">
+      <option value="List 2">
+      <option value="List 3">
+      <option value="List 4">
+      <option value="List 5">
+    </datalist>
+    <input type="submit" value="Submit">
+</div>
+
+<div id="last-load-details">
+    <div id="dimension">
+    <h5>Dimensions</h5> 
+    <label for="length"></label>
+        <input type="number" id="length" name="length" placeholder="Enter length" required>
+
+        <label for="width"></label>
+        <input type="number" id="width" name="width" placeholder="Enter width" required>
+
+        <label for="height"></label>
+        <input type="number" id="height" name="height" placeholder="Enter height" required>
+    </div>
+
+    <div id="weight">
+        <h5>Weight</h5>
+        <label for="weight"></label>
+        <input type="number" id="weight" name="weight" placeholder="Enter weight" required>
+
+    </div>
+
+</div>
+
+<div id="load-button">
+<button class="shadow-button">Add Another Item</button> <button>confirm</button>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>

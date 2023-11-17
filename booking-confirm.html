@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Factory OutLet</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="booking-confirm.css">
+    </head>
+<body>
+    <div>
+        <div id="container">
+            <a href="index.html"><button class="circle-button">1</button></a>
+            <div class="line">Search</div>
+            <a href="recomended.html"><button class="circle-button">2</button></a>
+            <div class="line">recomended services</div>
+            <a href="result.html"><button class="circle-button">3</button></a>
+            <div class="line">Results</div>
+            <a href="booking.html"><button class="circle-button">4</button></a>
+            <div class="line">Booking</div>
+            <button class="circle-button">5</button>
+            <div class="line">Verification</div>
+        </div>
+    </div>
+
+    <div class="options-container">
+        <div class="option" onclick="showEnterPo()"><h4>Enter Your Po/SKU/Internal Referance</h4> <br><p style="font-weight: lighter; font-size: smaller;">45230816000988</p></div>
+        <div class="option" onclick="showBookingPlaced()"><h4 style="color: red;">Booking Placed</h4> <br><p style="font-weight: lighter; font-size: smaller;">Please complete your all instruction for smoothly shipments</p></div>
+        <div class="option" onclick="showFulfilledByPremiours()"><h4>Fulfilled by Premiours</h4></div>
+    </div>
+
+    <div class="navigation-row">
+        <a href="#" class="navigation-link">Action Required</a>
+        <a href="#" class="navigation-link">Summary</a>
+        <a href="#" class="navigation-link">Shipment Charges</a>
+        <a href="#" class="navigation-link active">Quote</a>
+      </div>
+
+      <table>
+        <tr>
+          <td colspan="6" class="flight-symbol">✈️ Flight Symbol - 08037, New Jersey > 600032, Chennai</td>
+        </tr>
+        <tr>
+          <th>Code</th>
+          <th>Fee Name</th>
+          <th>Comments</th>
+          <th>Unit</th>
+          <th>Unit Price</th>
+          <th>Amount</th>
+        </tr>
+        <tr>
+          <td>Express</td>
+          <td>Door to Door</td>
+          <td>Chargeable weight 60</td>
+          <td>1</td>
+          <td>$59.40</td>
+          <td>$59.40</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="5" style="text-align: right;">Subtotal:</td>
+          <td>$59.40 USD</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="5" style="text-align: right;">Total:</td>
+          <td>$59.40 USD</td>
+        </tr>
+      </table>
+
+      <p>CO2:23.2kg(est.)</p>
+      <p>Quote ID: 51667773-67c7-4406-9759-164b427a35e5</p>
+
+      
+      <ul>
+        <h3>MainExpress Rate:</h3>
+        <li>*Shipments pickedup from remote areas as defines by express Carrier,will incur a surcharge to be paid by the shipper</li>
+        <li>*Address charge wull incur an additional charge of 25 USD,only applicable for changes after the shipment has been pickedup.</li>
+      </ul>
+    <div class="cart-items">
+        <!-- Your cart items will go here -->
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
+
+
+
+
+
+
